@@ -66,7 +66,7 @@ export default function FAQSection() {
   const col2 = faqs.slice(half);
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 bg-[#0C1830]/30" id="faq">
+    <section ref={sectionRef} className="py-16 lg:py-20 bg-[#0C1830]/30" id="faq">
       <div className="max-w-7xl mx-auto px-5 sm:px-10">
         {/* Header */}
         <div className="text-center mb-14">

@@ -1,9 +1,15 @@
 export default function LogoBar() {
-  const partners = [
-    "Contractfy", "MedTrack", "LGPD Compliance", "AWS Partner",
-    "Google Cloud", "Stripe", "OpenAI", "Hotmart",
-    "Contractfy", "MedTrack", "LGPD Compliance", "AWS Partner",
-    "Google Cloud", "Stripe", "OpenAI", "Hotmart",
+  const items = [
+    // Empresas
+    "Google Cloud", "AWS Partner", "Stripe", "OpenAI", "Hotmart",
+    // Produtos
+    "Contractfy", "MedTrack", "Sinapta Sales", "Sinapta Connect",
+    // Projetos
+    "CRM Inteligente", "Hub de Automação", "Cloud Bridge", "AI Assistant",
+    // Duplicate for infinite loop
+    "Google Cloud", "AWS Partner", "Stripe", "OpenAI", "Hotmart",
+    "Contractfy", "MedTrack", "Sinapta Sales", "Sinapta Connect",
+    "CRM Inteligente", "Hub de Automação", "Cloud Bridge", "AI Assistant",
   ];
 
   return (
@@ -20,10 +26,10 @@ export default function LogoBar() {
         <div className="absolute right-0 top-0 bottom-0 w-20 z-10 pointer-events-none"
           style={{ background: "linear-gradient(to left, #0C1830, transparent)" }} />
         <div className="ticker-track">
-          {partners.map((name, i) => (
+          {items.map((name, i) => (
             <div
               key={i}
-              className="flex items-center justify-center px-8 mx-3 py-3 rounded-xl min-w-[148px] h-12 transition-all duration-200 cursor-default"
+              className="flex items-center justify-center px-8 mx-3 py-3 rounded-xl min-w-[160px] h-12 transition-all duration-200 cursor-default"
               style={{
                 background: "rgba(255,255,255,0.02)",
                 border: "1px solid rgba(255,255,255,0.08)",
@@ -38,7 +44,7 @@ export default function LogoBar() {
                 (e.currentTarget as HTMLElement).style.boxShadow = "0 2px 12px rgba(0,0,0,0.2)";
               }}
             >
-              <span className="text-[#6B8DB8] text-sm font-semibold opacity-60 hover:opacity-100 transition-opacity whitespace-nowrap">
+              <span className="text-[#6B8DB8] text-sm font-semibold opacity-60 hover:opacity-100 transition-opacity whitespace-nowrap uppercase tracking-wider">
                 {name}
               </span>
             </div>

@@ -87,7 +87,7 @@ export default function PricingSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 relative" id="precos">
+    <section ref={sectionRef} className="py-16 lg:py-20 relative" id="precos">
       <div className="absolute inset-0 opacity-30"
         style={{ background: "radial-gradient(ellipse at center, rgba(249,115,22,0.04) 0%, transparent 60%)" }} />
 

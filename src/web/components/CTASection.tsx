@@ -43,7 +43,7 @@ export default function CTASection() {
   ];
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 relative overflow-hidden" id="contato">
+    <section ref={sectionRef} className="py-16 lg:py-20 relative overflow-hidden" id="contato">
       {/* Background */}
       <div className="absolute inset-0"
         style={{ background: "linear-gradient(135deg, rgba(27,110,243,0.08) 0%, rgba(249,115,22,0.04) 50%, transparent 100%)" }} />

@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Syne', sans-serif; }
   display: flex;
   width: max-content;
 }
-.ticker-track:hover { animation-play-state: paused; }
+/* .ticker-track:hover { animation-play-state: paused; } */
 
 /* Toggle */
 .toggle-switch {

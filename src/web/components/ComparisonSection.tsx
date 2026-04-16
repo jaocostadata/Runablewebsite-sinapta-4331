@@ -39,7 +39,7 @@ export default function ComparisonSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 bg-[#0C1830]/30" id="comparativo">
+    <section ref={sectionRef} className="py-16 lg:py-20 bg-[#0C1830]/30" id="comparativo">
       <div className="absolute inset-0 opacity-30"
         style={{ background: "radial-gradient(ellipse at bottom, rgba(27,110,243,0.05) 0%, transparent 60%)" }} />
 

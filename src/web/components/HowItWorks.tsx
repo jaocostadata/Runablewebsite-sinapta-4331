@@ -61,7 +61,7 @@ export default function HowItWorks() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 relative" id="processo">
+    <section ref={sectionRef} className="py-16 lg:py-20 relative" id="processo">
       <div className="absolute inset-0 opacity-30"
         style={{ background: "radial-gradient(ellipse at center, rgba(27,110,243,0.04) 0%, transparent 70%)" }} />
 

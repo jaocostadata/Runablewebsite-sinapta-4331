@@ -59,7 +59,7 @@ export default function SolutionSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 relative bg-[#0C1830]/40" id="solucao">
+    <section ref={sectionRef} className="py-16 lg:py-20 relative bg-[#0C1830]/40" id="solucao">
       {/* Background */}
       <div className="absolute inset-0 opacity-40"
         style={{ background: "radial-gradient(ellipse at bottom right, rgba(249,115,22,0.04) 0%, transparent 60%)" }} />

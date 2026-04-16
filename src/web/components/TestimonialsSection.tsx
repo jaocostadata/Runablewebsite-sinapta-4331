@@ -4,63 +4,33 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Rafael Andrade",
-    role: "CEO",
+    role: "Diretor Comercial",
     company: "TechLegal Soluções",
     avatar: "RA",
     color: "#1B6EF3",
     stars: 5,
-    text: "Em 3 semanas o Contractfy estava no ar e já economizamos mais de 40 horas mensais de trabalho jurídico. O processo que levava 30 minutos hoje leva menos de 1 minuto. ROI imediato.",
+    text: "Em pouco mais de um mês, a Sinapta automatizou todo o nosso fluxo jurídico. O que levava horas agora é feito em segundos. A eficiência operacional que ganhamos é incomparável.",
     result: "40h/mês economizadas",
   },
   {
     name: "Dra. Carla Menezes",
-    role: "Diretora Acadêmica",
-    company: "Revalida Pro",
+    role: "Gestora",
+    company: "Grupo Revalida",
     avatar: "CM",
     color: "#F97316",
     stars: 5,
-    text: "O MedTrack transformou como acompanhamos nossos alunos. Retivemos 23% mais estudantes no semestre seguinte ao lançamento. A trilha personalizada fez toda a diferença.",
-    result: "+23% retenção de alunos",
+    text: "O nível de personalização do MedTrack superou nossas expectativas. O suporte da equipe e a clareza nos dados nos permitiram escalar sem perder a qualidade no atendimento.",
+    result: "+23% de eficiência acadêmica",
   },
   {
     name: "Marcos Feliciano",
-    role: "Fundador",
+    role: "Proprietário",
     company: "Escala Digital",
     avatar: "MF",
     color: "#7C3AED",
     stars: 5,
-    text: "Tentei 4 agências antes da Sinapta. A diferença é absurda: eles entenderam o negócio de verdade. As automações eliminaram 3 funcionários de tarefas operacionais e dobraram nossa capacidade.",
-    result: "Operação 2x maior, mesmo time",
-  },
-  {
-    name: "Juliana Costa",
-    role: "COO",
-    company: "Nexum Saúde",
-    avatar: "JC",
-    color: "#1B6EF3",
-    stars: 5,
-    text: "Contratamos para um site mas o que recebemos foi uma parceria estratégica. O PageSpeed de 97 e o aumento de 312% em leads orgânicos nos primeiros 4 meses falam por si.",
-    result: "+312% em leads orgânicos",
-  },
-  {
-    name: "Pedro Valentim",
-    role: "Sócio",
-    company: "Valentim & Associados",
-    avatar: "PV",
-    color: "#F97316",
-    stars: 5,
-    text: "Nossa secretaria estava afogada em contratos. Com o Contractfy, o cliente assina de onde estiver, no celular, em segundos. Aumentamos 40% a velocidade de fechamento.",
-    result: "+40% velocidade de fechamento",
-  },
-  {
-    name: "Fernanda Lima",
-    role: "Head de Marketing",
-    company: "Orbita E-commerce",
-    avatar: "FL",
-    color: "#7C3AED",
-    stars: 5,
-    text: "As automações de marketing que a Sinapta implementou geraram R$280k em receita atribuída no primeiro trimestre. É como ter uma equipe de 10 pessoas rodando 24/7 sem pagar por isso.",
-    result: "R$280k em receita atribuída",
+    text: "Diferente de agências comuns, a Sinapta foca em resultados reais. As automações de ponta a ponta mudaram o jogo para nós, permitindo dobrar nossa produção com o mesmo time.",
+    result: "Produção 2x maior",
   },
 ];
 
@@ -96,7 +66,7 @@ export default function TestimonialsSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-28 lg:py-36 relative" id="depoimentos">
+    <section ref={sectionRef} className="py-16 lg:py-20 relative" id="depoimentos">
       <div className="absolute inset-0 opacity-30"
         style={{ background: "radial-gradient(ellipse at top left, rgba(249,115,22,0.04) 0%, transparent 60%)" }} />
 
