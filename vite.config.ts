@@ -6,7 +6,7 @@ import path from "path";
 import runableAnalyticsPlugin from "./vite/plugins/runable-analytics-plugin";
 
 export default defineConfig({
-	plugins: [react(), runableAnalyticsPlugin(), cloudflare(), tailwind()],
+	plugins: [react(), tailwind(), runableAnalyticsPlugin(), cloudflare()],
 	resolve: {
 		alias: {
 			"@": path.resolve(__dirname, "./src/web"),
