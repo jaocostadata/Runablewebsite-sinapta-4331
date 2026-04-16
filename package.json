@@ -49,9 +49,9 @@
     "wrangler": "^4.71.0"
   },
   "scripts": {
-    "build": "bunx tsc --noEmit && ([ ! -f autumn.config.ts ] || bunx tsc --noEmit --skipLibCheck autumn.config.ts) && vite build",
+    "build": "tsgo && ([ ! -f autumn.config.ts ] || bunx tsc --noEmit --skipLibCheck autumn.config.ts) && vite build",
     "cf-typegen": "wrangler types",
-    "check": "bunx tsc --noEmit && vite build && wrangler deploy --dry-run",
+    "check": "tsgo && vite build && wrangler deploy --dry-run",
     "dev": "vite",
     "lint": "eslint .",
     "preview": "bun run build && vite preview",
